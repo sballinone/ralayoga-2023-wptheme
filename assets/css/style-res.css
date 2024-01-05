@@ -119,10 +119,8 @@
 	}
 	
 	.parallax {
-		background-attachment: inherit;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-attachment: fixed !important;
+		background-size: 100vh auto !important;
 	}
 }
 
