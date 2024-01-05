@@ -15,7 +15,25 @@
 		
 	</head>     
 	<body>
+		
+		
+		<?php 
+		if ( is_front_page() || is_home() ) {
+			?>
+		<div id="headerHome" class="parallax" style="background-image: url('<?php
+						if(get_theme_mod('home_image') > 0) { 
+							echo wp_get_attachment_image_url(get_theme_mod('home_image'), 'full'); 
+						} else {
+							echo get_theme_file_uri().'/assets/images/header/view.jpeg';
+						} ?>');">
+			<?php
+			} else {
+			?>
 		<div id="header" class="parallax" style="background-image: url('<?php header_image(); ?>">
+			<?php
+		} ?>
+			
+			
 			<div id="navbar" class="navbar">
 				<div id="logo">
 					<img src="<?=get_theme_file_uri();?>/assets/images/logo/logo-navbar2.png">

@@ -41,12 +41,17 @@ function my_register_sidebars() {
 		array(
 			'id'            => 'footer',
 			'name'          => __( 'Footer Widgets' ),
-			'description'   => __( 'Place your footer widgets here.' ),
+			'description'   => __( 'Hier kommt der Footer hin.' ),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
 		)
 	);
 }
 add_action( 'widgets_init', 'my_register_sidebars' );
+
+
+
+// Customizer
+require_once('WordPressThemeCustomizer.php');

@@ -1,11 +1,16 @@
-<div class="image parallax" style="height: 400px; background-image: url('<?=get_theme_file_uri();?>/assets/images/header/castel.jpeg');">
+<div class="image parallax" style="height: 400px; background-image: url('<?php
+			if(get_theme_mod('footer_image') > 0) { 
+				echo wp_get_attachment_image_url(get_theme_mod('footer_image'), 'full'); 
+			} else {
+				echo get_theme_file_uri().'/assets/images/header/castel.jpeg';
+			} ?>');">
 			
 		</div>
 		
 		<div id="footer">
 			<div id="footerMain">
 				<?php 
-					get_sidebar( 'footer' ); 
+					dynamic_sidebar( 'footer' ); 
 				?>
 			</div>
 			<div id="footerBottom">
