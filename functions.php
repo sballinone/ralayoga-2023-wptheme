@@ -55,3 +55,9 @@ add_action( 'widgets_init', 'my_register_sidebars' );
 
 // Customizer
 require_once('WordPressThemeCustomizer.php');
+
+
+
+// Sonstige
+add_theme_support( 'title-tag' );
+add_theme_support( 'automatic-feed-links' );
