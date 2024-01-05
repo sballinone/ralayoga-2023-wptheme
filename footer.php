@@ -33,6 +33,45 @@
 				</span>
 			</div>
 		</div>
+
+
+
+		<?php 
+		if ( is_front_page() || is_home() ) {
+			?>
+			<div id="splash">
+				<div id="splashContent">
+					<span style="font-family: 'Qwitcher Grypen', sans-serif; font-size: 16pt">
+						<img src="<?php echo get_theme_file_uri('/assets/images/logo/logo.png'); ?>">
+					</span><br />
+					<span style="font-family: 'Qwitcher Grypen', sans-serif; font-size: 40pt">
+						Schön, dass du da bist!
+					</span>
+				</div>
+			</div>
+
+			<script>
+			// Splash Animation
+			( function( $ ) {
+				$(document).ready(
+					function() {
+						var navbarTop = $('#navbar').css('top');
+
+						$('#splashContent').delay(2100).fadeOut();
+						// Anim 1
+						//$('#splash').delay(2500).animate({'height':'90px', 'top':navbarTop},800).animate({'width':'0px'},800).fadeOut();
+						// Anim 2
+						$('#splash').delay(2500).animate({'height':'90px', 'top':navbarTop},1200).fadeOut();
+						// Fade
+						//$('#splash').delay(2100).fadeOut(1200);
+					}
+				);
+			} )( jQuery );
+			</script>
+		
+			<?php
+		} ?>
+
 		
 		<?php wp_footer(); ?>
 

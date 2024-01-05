@@ -117,6 +117,13 @@
 	.author {
 		display: none;
 	}
+	
+	.parallax {
+		background-attachment: inherit;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 /*#navigation:checked ~ nav ul {
