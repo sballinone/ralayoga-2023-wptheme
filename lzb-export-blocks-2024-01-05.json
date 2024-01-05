@@ -1,0 +1,88 @@
+[
+    {
+        "id": 76,
+        "title": "Parallax Full With Picture",
+        "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n\t<rect opacity=\"0.25\" width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 22 7)\" fill=\"currentColor\" \/>\n\t<rect width=\"15\" height=\"15\" rx=\"4\" transform=\"matrix(-1 0 0 1 17 2)\" fill=\"currentColor\" \/>\n<\/svg>",
+        "keywords": [],
+        "slug": "lazyblock\/parallax-full-with-picture",
+        "description": "",
+        "category": "text",
+        "category_label": "text",
+        "supports": {
+            "customClassName": true,
+            "anchor": false,
+            "html": false,
+            "multiple": true,
+            "inserter": true,
+            "reusable": true,
+            "lock": true,
+            "align": [
+                "wide",
+                "full"
+            ]
+        },
+        "ghostkit": {
+            "supports": {
+                "spacings": false,
+                "display": false,
+                "scrollReveal": false,
+                "frame": false,
+                "customCSS": false
+            }
+        },
+        "controls": {
+            "control_bb680b4497": {
+                "type": "image",
+                "name": "image",
+                "default": "",
+                "label": "Parallax Image",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "required": "true",
+                "translate": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "insert_from_url": "false",
+                "preview_size": "medium",
+                "placeholder": "",
+                "characters_limit": ""
+            },
+            "control_a69baf4a31": {
+                "type": "number",
+                "name": "height",
+                "default": "400",
+                "label": "Height",
+                "help": "",
+                "child_of": "",
+                "placement": "content",
+                "width": "100",
+                "hide_if_not_selected": "false",
+                "required": "false",
+                "translate": "false",
+                "save_in_meta": "false",
+                "save_in_meta_name": "",
+                "min": "",
+                "max": "",
+                "step": "",
+                "placeholder": "",
+                "characters_limit": ""
+            }
+        },
+        "code": {
+            "output_method": "html",
+            "editor_html": "",
+            "editor_callback": "",
+            "editor_css": "",
+            "frontend_html": "<div class=\"image parallax\" style=\"height: {{height}}px; background-image: url('{{image.url}}');\">\n<\/div>",
+            "frontend_callback": "",
+            "frontend_css": "",
+            "show_preview": "always",
+            "single_output": false
+        },
+        "styles": [],
+        "condition": []
+    }
+]
