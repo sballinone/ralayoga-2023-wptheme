@@ -117,11 +117,6 @@
 	.author {
 		display: none;
 	}
-	
-	.parallax {
-		background-attachment: fixed !important;
-		background-size: 100vh auto !important;
-	}
 }
 
 /*#navigation:checked ~ nav ul {

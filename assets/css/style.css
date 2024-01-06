@@ -104,6 +104,12 @@ h1, h2, h3 {
 	background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll !important;
+  }
+}
+
 #nav {
 	padding: 10px 0;
 }
