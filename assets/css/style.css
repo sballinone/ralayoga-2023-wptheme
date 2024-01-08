@@ -27,6 +27,11 @@ h1, h2, h3 {
 	padding: 0;
 }
 
+p {
+	font-size: 14pt;
+	line-height: 2;
+}
+
 .alignright {
 	text-align: right;
 }
@@ -186,6 +191,8 @@ h1, h2, h3 {
 .content {
 	padding: 100px 100px 100px 100px;
 	text-align: justify;
+	font-size: 14pt;
+	line-height: 2;
 }
 
 .content-fw {

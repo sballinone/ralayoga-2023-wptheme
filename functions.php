@@ -28,7 +28,7 @@ function register_my_menus() {
 // Only the upper part is visible
 $header_info = array(
 	'width'         => 1280,
-	'height'        => 800,
+	'height'        => 400,
 	'default-image' => get_template_directory_uri() . '/assets/images/header/rock.jpeg',
 );
 add_theme_support( 'custom-header', $header_info );

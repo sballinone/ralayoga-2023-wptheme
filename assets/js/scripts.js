@@ -2,6 +2,8 @@
 	
 	
 
+	// Note: Live Photo Kt: https://developer.apple.com/documentation/livephotoskitjs
+	
 	// Splash Animation
 	$(document).ready(
 		function() {
