@@ -42,7 +42,7 @@
 			<div id="splash">
 				<div id="splashContent">
 					<span style="font-family: 'Qwitcher Grypen', sans-serif; font-size: 16pt">
-						<img src="<?php echo get_theme_file_uri('/assets/images/logo/logo-large.png'); ?>">
+						<img src="<?php echo get_theme_file_uri('/assets/images/logo/logo-splash.png'); ?>" style="max-height: 50vh; max-width: 62vw;">
 					</span><br />
 					<span style="font-family: 'Qwitcher Grypen', sans-serif; font-size: 40pt">
 						Schön, dass du da bist!
