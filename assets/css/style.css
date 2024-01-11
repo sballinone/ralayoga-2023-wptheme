@@ -12,7 +12,7 @@ html {
 
 a {
     text-decoration: underline;
-    color: 000000;
+    color: #592d33;
 }
 
 body {
@@ -291,4 +291,39 @@ p {
 	background: -webkit-radial-gradient(circle, rgba(201,162,168,1) 0%, rgba(166,100,110,1) 100%);
 	background: radial-gradient(circle, rgba(201,162,168,1) 0%, rgba(166,100,110,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c9a2a8",endColorstr="#a6646e",GradientType=1);
+}
+
+
+
+/* Formular */
+input,
+textarea {
+	font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+	font-size: 14pt;
+	padding: 10px 15px 0 15px;
+	background-color: #eeeaea;
+	border: 0px;
+	border-bottom: 2px #592d33 solid;
+	color: #592d33;
+	font-weight: 400;
+}
+
+input[type=button], 
+input[type=submit] {
+	padding: 10px 15px;
+	border: 2px #592d33 solid;
+	font-size: 12pt;
+	background-color: #592d33;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+input[type=button]:hover, 
+input[type=submit]:hover {
+	background-color: #ffffff;
+	color: #592d33;
+}
+
+input[type=checkbox] {
+	border: 2px solid;
 }
