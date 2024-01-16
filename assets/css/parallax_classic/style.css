@@ -327,21 +327,3 @@ input[type=submit]:hover {
 input[type=checkbox] {
 	border: 2px solid;
 }
-
-
-
-.wplogout-social-footer-ig {
-	vertical-align: middle;
-	height: 38px;
-	width: 38px;
-}
-
-#nav .wplogout-social-footer-ig:hover {
-	border-color: #ffffff;
-	opacity: 0.8;
-}
-
-#nav .wplogout-social-footer-ig a {
-	/*fill: rgba(228, 64, 95, .8);*/
-	fill: #592d33;
-}
