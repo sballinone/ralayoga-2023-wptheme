@@ -308,6 +308,20 @@ textarea {
 	font-weight: 400;
 }
 
+select {
+	appearance: none;
+	outline: none;
+	font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+	font-size: 14pt;
+	padding: 10px 15px 0 15px;
+	background-color: #eeeaea;
+	border: 0px;
+	border-bottom: 2px #592d33 solid;
+	border-radius: 0;
+	color: #592d33;
+	font-weight: 400;
+}
+
 input[type=button], 
 input[type=submit] {
 	padding: 10px 15px;
